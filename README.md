@@ -50,6 +50,53 @@ Several machine learning models were evaluated for their performance in predicti
 
 The models were trained and evaluated based on metrics such as accuracy, precision, recall, and F1-score. The best performing model was chosen for deployment.
 
+## Code of the model
+    ```bash
+    !pip install pandas numpy scikit-learn joblib
+
+    import pandas as pd
+    import numpy as np
+    from sklearn.model_selection import train_test_split
+    from sklearn.preprocessing import StandardScaler
+    from sklearn.impute import SimpleImputer
+    from sklearn.ensemble import RandomForestClassifier
+    import joblib
+
+    # Load dataset  
+    data = pd.read_csv('/content/diabetes.csv')
+
+    # Handle missing values
+    imputer = SimpleImputer(strategy='mean')
+    data.iloc[:, :-1] = imputer.fit_transform(data.iloc[:, :-1])
+
+    # Split data into features and target 
+    X = data.drop('Outcome', axis=1)
+    y = data['Outcome']
+
+    # Split data into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    # Normalize features
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
+
+    # Train the model
+    model = RandomForestClassifier(n_estimators=100, max_depth=None, random_state=42)
+    model.fit(X_train, y_train)
+ 
+    # Save the model and scaler
+    joblib.dump(model, 'best_model.pkl')
+    joblib.dump(scaler, 'scaler.pkl')
+    from google.colab import files
+
+    # Download the model
+    files.download('best_model.pkl')
+
+    # Download the scaler
+    files.download('scaler.pkl')
+
+
 ## Deployment
 
 The prediction model is deployed using a Flask web application. Users can input their health metrics, and the system will predict the likelihood of diabetes based on the trained model.

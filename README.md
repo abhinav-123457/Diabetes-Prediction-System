@@ -99,7 +99,7 @@ The models were trained and evaluated based on metrics such as accuracy, precisi
 
 ## File stucture:
 
-     ```bash
+     
      diabetes_prediction/
     ├── app.py
     ├── best_model.pkl

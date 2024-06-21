@@ -81,7 +81,7 @@ Ensure you have Python 3.8 or higher installed. Use pip to install required pack
 Contributions are welcome! If you'd like to add new features, improve the model, or fix issues, please fork the repository and create a pull request.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LISENCE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](/LISENCE) file for details.
 
 
 ### Notes:

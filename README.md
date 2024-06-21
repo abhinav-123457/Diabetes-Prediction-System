@@ -65,10 +65,14 @@ To use this project locally, follow these steps:
    
 2. **Install dependencies:**
    ```bash
-   pip install -r requirements.txt
+   pip install flask numpy joblib
    
 3. **Run the application:(Type in the terminal)**
    ```bash
    python app.py
 
 4. **Click the link come in the terminal after running app.py**
+ 
+## Setup
+
+Ensure you have Python 3.8 or higher installed. Use pip to install required packages.

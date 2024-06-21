@@ -76,3 +76,18 @@ To use this project locally, follow these steps:
 ## Setup
 
 Ensure you have Python 3.8 or higher installed. Use pip to install required packages.
+
+## Contributing
+Contributions are welcome! If you'd like to add new features, improve the model, or fix issues, please fork the repository and create a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+### Notes:
+
+- **Badges**: The badge URLs (`https://img.shields.io/badge/...`) should be updated with actual versions or statuses of the technologies used in your project.
+- **Links**: The dataset link is provided as an example. Replace it with the actual link to your dataset if different.
+- **Sections**: Each section (Overview, Dataset, Features, etc.) is structured with headings (`##`), and links within the document are formatted using markdown syntax `[text](URL)`.
+
+This README.md template provides a structured and informative format to showcase your project on GitHub, ensuring it is clear and accessible to potential users and contributors. Adjust the content and sections based on your project's specific details and requirements.

@@ -60,9 +60,15 @@ To use this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/Diabetes-Prediction-System.git
+   git clone https://github.com/abhinav-123457/Diabetes-Prediction-System.git
    cd Diabetes-Prediction-System
+   
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
-3.
+   
+3. **Run the application:(Type in the terminal)**
+   ```bash
+   python app.py
+
+4. **Click the link come in the terminal after running app.py**

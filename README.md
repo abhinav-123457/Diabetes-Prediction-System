@@ -97,6 +97,14 @@ The models were trained and evaluated based on metrics such as accuracy, precisi
     files.download('scaler.pkl')
 
 
+## File stucture: 
+diabetes_prediction/
+    ├── app.py
+    ├── best_model.pkl
+    ├── scaler.pkl
+    └── templates/
+        └── index.html
+
 ## Deployment
 
 The prediction model is deployed using a Flask web application. Users can input their health metrics, and the system will predict the likelihood of diabetes based on the trained model.

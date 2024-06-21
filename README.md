@@ -87,7 +87,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ### Notes:
 
 - **Badges**:  ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  ![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24.2-orange)  ![Flask](https://img.shields.io/badge/Flask-2.0.1-green)
-- **Links**: The dataset link is provided as an example. Replace it with the actual link to your dataset if different.
 - **Sections**: Each section (Overview, Dataset, Features, etc.) is structured with headings (`##`), and links within the document are formatted using markdown syntax `[text](URL)`.
 
 This README.md template provides a structured and informative format to showcase your project on GitHub, ensuring it is clear and accessible to potential users and contributors. Adjust the content and sections based on your project's specific details and requirements.

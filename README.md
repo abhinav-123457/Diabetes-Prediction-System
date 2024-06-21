@@ -86,7 +86,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ### Notes:
 
-- **Badges**:(`https://img.shields.io/badge/Python-3.8%2B-blue`)(`https://img.shields.io/badge/scikit--learn-0.24.2-orange`)(`https://img.shields.io/badge/Flask-2.0.1-green`) 
+- **Badges**:![python](`https://img.shields.io/badge/Python-3.8%2B-blue`)(`https://img.shields.io/badge/scikit--learn-0.24.2-orange`)(`https://img.shields.io/badge/Flask-2.0.1-green`) 
 - **Links**: The dataset link is provided as an example. Replace it with the actual link to your dataset if different.
 - **Sections**: Each section (Overview, Dataset, Features, etc.) is structured with headings (`##`), and links within the document are formatted using markdown syntax `[text](URL)`.
 

@@ -50,8 +50,8 @@ Several machine learning models were evaluated for their performance in predicti
 
 The models were trained and evaluated based on metrics such as accuracy, precision, recall, and F1-score. The best performing model was chosen for deployment.
 
-## Code of the model
-    ```bash
+## Code of the model: 
+
     !pip install pandas numpy scikit-learn joblib
 
     import pandas as pd

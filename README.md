@@ -5,7 +5,7 @@
 ![Flask](https://img.shields.io/badge/Flask-2.0.1-green)
 
 This project aims to predict the likelihood of diabetes in patients based on various health parameters using machine learning algorithms.
-
+![ProjectImage]()
 ## Table of Contents
 
 - [Overview](#overview)
